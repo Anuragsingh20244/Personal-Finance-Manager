@@ -19,4 +19,4 @@ A Java-based console application to track income and expenses with persistent da
 ## How to Run
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/personal-finance-manager.git
+   https://lnk.ink/theanurag.in
