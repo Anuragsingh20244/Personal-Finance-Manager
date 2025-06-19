@@ -71,6 +71,10 @@ public class FinanceManager {
         return transactions.isEmpty() ? 1 : transactions.get(transactions.size() - 1).getId() + 1;
     }
 
+    public List<Transaction> getTransactions() {
+        return transactions;
+    }
+
     private void saveTransactions() {
         try (ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream(filePath))) {
             out.writeObject(transactions);
